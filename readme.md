@@ -50,7 +50,7 @@ If you do not expect to modify this solution and deploy merged changes, you can 
 1. Click Fork in the upper right hand corner of this page to your account.
 1. From your forked version, open this `README.md`` file to change the path for the ***Deploy To Azure*** button to your local repository. Commit the change to your repo.
 1. Click ***Deploy to Azure*** below and follow the prompts in Azure Portal to deploy this solution.
-1. In the Custom Deployment blade in Azure Portal, modify **App Git Repository** to point to your forked GitHub repo for this solution. By default the value is `https://github.com/Azure-Samples/cosmosdb-chatgpt.git`
+1. In the Custom Deployment blade in Azure Portal, modify **App Git Repository** to point to your forked GitHub repo for this solution. By default the value is `https://github.com/Woznet/cosmosdb-chatgpt.git`
 1. If you deploy this solution without making either of these changes, you can update the repository by disconnecting and connecting an external git repository pointing to your fork from within Azure App Service Deployment Center blade in Azure Portal.
 
 
