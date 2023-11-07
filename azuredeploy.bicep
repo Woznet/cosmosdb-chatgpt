@@ -39,10 +39,10 @@ param appServiceSku string = 'F1'
 ])
 param openAiSku string = 'S0'
 
-@description('Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository.')
-param appGitRepository string = 'https://github.com/azure-samples/cosmosdb-chatgpt.git'
+@description('Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/Woznet/cosmosdb-chatgpt) repository.')
+param appGitRepository string = 'https://github.com/Woznet/cosmosdb-chatgpt.git'
 
-@description('Git repository branch for the chat application. This defaults to the [**main** branch of the `azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt/tree/main) repository.')
+@description('Git repository branch for the chat application. This defaults to the [**main** branch of the `azure-samples/cosmosdb-chatgpt`](https://github.com/Woznet/cosmosdb-chatgpt/tree/main) repository.')
 param appGetRepositoryBranch string = 'main'
 
 @description('Determines if Azure OpenAI should be deployed. Defaults to true.')
